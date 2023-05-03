@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from "node:path";
+import typescript2 from 'rollup-plugin-typescript2';
 import dts from "vite-plugin-dts";
 
 export default defineConfig({
@@ -8,6 +9,19 @@ export default defineConfig({
     vue(),
     dts({
       insertTypesEntry: true,
+    }),
+    typescript2({
+      check: false,
+      include: ["src/components/**/*.vue"],
+      tsconfigOverride: {
+        compilerOptions: {
+          outDir: "dist",
+          sourceMap: true,
+          declaration: true,
+          declarationMap: true,
+        },
+      },
+      exclude: ["vite.config.ts"]
     })
   ],
   build: {

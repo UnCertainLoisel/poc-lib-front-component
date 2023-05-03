@@ -1,0 +1,17 @@
+{
+  "eslint.validate": ["vue", "html", "javascript", "typescript", "jsonc"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "stylelint.validate": ["vue", "scss"],
+  "i18n-ally.localesPaths": ["src/assets/i18n"],
+  "i18n-ally.enabledFrameworks": ["vue"],
+  "i18n-ally.keystyle": "nested",
+  // "i18n-ally.sortKeys": true,
+  "i18n-ally.keepFulfilled": true,
+  "i18n-ally.namespace": true,
+  "i18n-ally.pathMatcher": "i18n.{locale}.json",
+  "i18n-ally.sourceLanguage": "fr",
+  "i18n-ally.displayLanguage": "fr"
+}
