@@ -1,6 +1,8 @@
 {
   "test_strings": {
-    "localization_test": "Test de localisation",
-    "button_message": "Message localisé"
+    "icon_test": "Test d'icône",
+    "prop_test": "Test de prop",
+    "button_message": "Message localisé",
+    "button_label": "Ajouter une ligne"
   }
 }
