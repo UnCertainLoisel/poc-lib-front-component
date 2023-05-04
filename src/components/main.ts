@@ -1,10 +1,10 @@
 import type { App } from 'vue';
-import { DemoComponent } from "@/components";
+import { CustomFrontComponent } from "@/components";
 
 export default {
   install: (app: App) => {
-    app.component('DemoComponent', DemoComponent);
+    app.component('CustomFrontComponent', CustomFrontComponent);
   }
 };
 
-export { DemoComponent };
+export { CustomFrontComponent };

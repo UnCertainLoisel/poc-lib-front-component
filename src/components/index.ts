@@ -1,1 +1,1 @@
-export { default as DemoComponent } from './DemoComponent.vue';
+export { default as CustomFrontComponent } from './CustomFrontComponent.vue';
