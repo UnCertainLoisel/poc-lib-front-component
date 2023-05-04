@@ -7,7 +7,8 @@ Proof of concept de lib Vue3 / Element-plus
 L'installation directe par git ne fonctionne pas car le dossier `dist` est dans le `.gitignore` (ce qui est normal).
 
 - Cloner le repo dans le dossier parent du projet
-- `npm i file:../poc-lib-front-component`
+- Dans la lib, `npm i` puis `npm run build`
+- Dans le projet, `npm i file:../poc-lib-front-component`
 
 ## Notes
 
