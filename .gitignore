@@ -1,3 +1,6 @@
+src/dev-sandbox/*
+!src/dev-sandbox/.gitkeep
+
 # Logs
 logs
 *.log

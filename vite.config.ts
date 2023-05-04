@@ -28,7 +28,7 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: "src/components/main.ts",
+      entry: "src/main.ts",
       name: 'pocLibFrontComponentsTs',
       formats: ["es", "cjs", "umd"],
       fileName: format => `poc-lib-front-components.${format}.js`
@@ -37,7 +37,7 @@ export default defineConfig({
       // make sure to externalize deps that should not be bundled
       // into your library
       input: {
-        main: resolve(__dirname, "src/components/main.ts")
+        main: resolve(__dirname, "src/main.ts")
       },
       external: ['vue'],
       output: {
