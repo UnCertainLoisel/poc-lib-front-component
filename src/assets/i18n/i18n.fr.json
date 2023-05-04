@@ -4,5 +4,9 @@
     "prop_test": "Test de prop",
     "button_message": "Message localisé",
     "button_label": "Ajouter une ligne"
+  },
+  "error404": {
+    "title": "C'est une 404 :(",
+    "message": "La page demandée est introuvable."
   }
 }
